@@ -1,0 +1,42 @@
+{
+  "name": "ntsw-starter",
+  "version": "1.0.0",
+  "description": "A Node.js starter using TypeScript that is bundled via Webpack.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfioravanti/ntsw-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidfioravanti/ntsw-starter/issues"
+  },
+  "homepage": "https://github.com/davidfioravanti/ntsw-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@types/jquery": "^3.5.14",
+    "@types/lodash": "^4.14.184",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21",
+    "sass": "^1.54.8",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  }
+}

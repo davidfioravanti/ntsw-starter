@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./mixins";
+
+#root {
+    display: block;
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    code {
+        display: inline-block;
+        background-color: $__color__primary--dark;
+        color: $__color__secondary;
+        padding: 10px 0px 10px 10px;
+        margin: 10px 0px 10px 0px;
+        width: 100%;
+        max-width: 450px;
+        font-style: italic;
+        text-align: left;
+    }
+}
